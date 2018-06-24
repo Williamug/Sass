@@ -1,0 +1,135 @@
+/* 
+ * Setting global variable
+ */
+.container .container p, .top-nav-items, ul.inline {
+  margin: 0%;
+  padding: 0%;
+}
+
+.top-nav-items li, ul.inline li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+body {
+  font-family: "arial";
+  font-size: 100%;
+  background-color: #edeff0;
+  color: #222;
+  line-height: 150%;
+  margin: 0;
+}
+
+a {
+  color: 0;
+  font-weight: 600;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 800px;
+  padding: 0 20px;
+}
+
+.container {
+  background-color: #fff;
+  background-radius: 5px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+.container .content, .container .footer {
+  padding: 20px;
+}
+.container .container p {
+  border-bottom: 10px;
+}
+.container .footer {
+  background-color: #f6fcfc;
+  border-radius: 0 0 5px 5px;
+  border-top: 1px solid #e8ebed;
+}
+.container ul.inline a {
+  padding: 5px 10px;
+  border-radius: 6px;
+}
+.container ul.inline a:hover {
+  background-color: #444;
+  color: #fff;
+}
+
+ul.inline li {
+  font-size: 0.9em;
+}
+ul.inline li a {
+  text-decoration: none;
+}
+
+.button {
+  display: inline-block;
+  padding: 8px 14px;
+  text-decoration: none;
+  font-weight: 500;
+  border-radius: 5px;
+  background-color: rgba(224, 224, 224, 0.8);
+  transition: background-color 100ms ease-in;
+}
+.button:hover {
+  background-color: #e0e0e0;
+}
+.button.medium {
+  padding: 10px 16px;
+  font-size: 1em;
+}
+.button.large {
+  padding: 12px 18px;
+  font-size: 1.1em;
+}
+.button.success {
+  background-color: rgba(94, 188, 65, 0.8);
+  transition: background-color 100ms ease-in;
+  color: #fff;
+}
+.button.success:hover {
+  background-color: #5ebc41;
+}
+.button.error {
+  background-color: rgba(187, 40, 40, 0.8);
+  transition: background-color 100ms ease-in;
+  color: #fff;
+}
+.button.error:hover {
+  background-color: #bb2828;
+}
+
+.top-nav {
+  background-color: #444;
+  height: 60px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.top-nav .logo {
+  float: left;
+  height: 60px;
+  line-height: 60px;
+  margin-left: 20px;
+}
+
+.top-nav-items {
+  float: left;
+  line-height: 60px;
+  margin-left: 40px;
+  font-size: 0.9em;
+}
+.top-nav-items a {
+  display: block;
+  height: 60px;
+  padding: 0 20px;
+  color: #666;
+  font-weight: 400;
+  text-decoration: none;
+  transition: color 100ms ease-in;
+}
+.top-nav-items a:hover {
+  color: #fff;
+}
+
+/*# sourceMappingURL=public/css/app.css.map */

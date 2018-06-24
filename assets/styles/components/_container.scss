@@ -1,0 +1,31 @@
+.container{
+    background-color: $container-bg-color;
+    background-radius: $container-border-radius;
+    box-shadow: $container-shadow;
+
+    .content, .footer{
+        padding: 20px;
+    }
+
+    .container p{
+        @extend %no-spacing;
+        border-bottom: 10px;
+    }
+
+    .footer{
+        background-color: #f6fcfc;
+        border-radius: 0 0 $container-border-radius $container-border-radius;
+        border-top: $container-footer-top-border;
+    }
+
+    ul.inline{
+        a{
+            padding: 5px 10px;
+            border-radius: 6px;
+            &:hover{
+                background-color: #444;
+                color: #fff;
+            }
+        }
+    }
+}

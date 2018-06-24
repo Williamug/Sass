@@ -1,0 +1,36 @@
+/* 
+ * Setting global variable
+ */
+
+ $body-bg-color: #edeff0;
+ $body-text-color: #222;
+ $body-font-family: "arial";
+ $body-font-size: 100%;
+ $body-line-height: 150%;
+
+//  links variables
+ $link-color: 000;
+ $link-weight: 600;
+
+//  colors
+$primary-color: #e0e0e0;
+$success-color: #5ebc41;
+$error-color: #bb2828;
+
+//  container
+$container-bg-color: #fff;
+$container-border-radius: 5px;
+$container-shadow: 0 2px 2px rgba(0, 0, 0, .2);
+$container-footer-top-border: 1px solid #e8ebed;
+
+// button
+$button-border-radius: 5px;
+$button-bg-color: $primary-color;
+
+$button-success-text-color: #fff;
+$button-error-text-color: #fff;
+
+// nav
+$nav-bg-color: #444;
+$nav-text-color: #fff;
+$nav-link-color: #666;
